@@ -1,0 +1,16 @@
+#Core dependencies
+langchain>=0.2.14
+langchain-community>=0.2.12
+langchain-text-splitters>=0.2.2
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+pydantic>=2.7.0
+python-dotenv>=1.0.1
+requests>=2.32.3
+langchain-huggingface>=0.0.3
+
+#Evaluation + UI Dependencies
+ragas>=0.1.10
+datasets>=2.19.0
+pandas>=2.2.2
+streamlit>=1.37.0
