@@ -43,8 +43,7 @@ EU-Navigator/
 │ ├─ reviewer.py #Lightweight critique
 │ ├─ agentic.py #Orchestration (planner → retrieve → rerank → synthesize → review)
 │ ├─ ollama_client.py #Robust streaming client with retries
-│ ├─ eval_ragas.py #RAGAS evaluation (faithfulness, answer_relevancy)
-│ └─ init.py
+│ └─ eval_ragas.py #RAGAS evaluation (faithfulness, answer_relevancy)
 ├─ app_streamlit.py #PLP interface: Learn / Ask / Progress
 ├─ requirements.txt
 ├─ .env
