@@ -1,4 +1,4 @@
-# EU Navigator — A Multi-Agent RAG Personal Learning Portal
+# EU Navigator - A Multi-Agent RAG Personal Learning Portal
 
 EU Navigator is a **RAG-powered learning portal** for European tech/data/AI legislation (EU bills & directives).  
 It combines **high-quality retrieval**, **cross-encoder reranking**, **agentic planning & synthesis**, and a simple PLP interface with **progress tracking** and **notes**.
@@ -37,7 +37,7 @@ EU-Navigator/
 │ ├─ config.py #Settings (.env-backed)
 │ ├─ manifest.py #CSV manifest loader (doc_id/title/module/paths)
 │ ├─ ingest.py #Chunk + embed + index (BAAI/bge-m3 + FAISS)
-│ ├─ retrieval.py #Retrieve + CE rerank + metadata
+│ ├─ retrieval.py #Retrieve + Rerank + metadata
 │ ├─ synthesizer.py #LLM answer synthesis with citations
 │ ├─ planner.py #Query rewrite/plan (Deepseek-R1)
 │ ├─ reviewer.py #Lightweight critique
