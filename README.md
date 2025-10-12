@@ -9,7 +9,7 @@ It combines **high-quality retrieval**, **cross-encoder reranking**, **agentic p
 - **Multi-Agentic RAG** pipeline
   - *Query Rewriter/Planner:* Deepseek-R1 (reasoning)  
   - *Retriever:* FAISS + `BAAI/bge-m3` embeddings  
-  - *Reranker:* Cross-encoder (`bge-reranker-v2-m3` or compatible CE)  
+  - *Reranker:* Cross-encoder (`bge-reranker-v2-m3`)  
   - *Synthesizer:* Llama 3.1 8B (via Ollama)  
   - *Reviewer:* lightweight critique for follow-ups
 
