@@ -1,4 +1,4 @@
-# EU Navigator - A Multi-Agent RAG Personal Learning Portal
+# EU Navigator - A Multi-Agent RAG
 
 EU Navigator is a **RAG-powered learning portal** for European tech/data/AI legislation (EU bills & directives).  
 It combines **high-quality retrieval**, **cross-encoder reranking**, **agentic planning & synthesis**, and a simple PLP interface with **progress tracking** and **notes**.
